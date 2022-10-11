@@ -1,0 +1,27 @@
+#body{
+    margin-top: 25px;
+    margin-left: 35em;
+    width: 50em;
+}
+
+#btn{
+    margin-top: 15px;
+}
+
+#titulo{
+    height: 2em;
+    text-align: center;
+    justify-content: center;
+}
+
+#result{
+    width: 30em;
+    border: solid 2px;
+    margin-top: 25px;
+    margin-left: 50em;
+    background-color: rgb(182, 180, 180);
+}
+
+#home2{
+    margin-left: 50em
+}

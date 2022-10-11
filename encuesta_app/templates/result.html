@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <title>Result</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='estilo.css') }}">
+</head>
+<body>
+    <div id="result">
+        <h1 class="text-bg-secondary p-3, text-warning bg-dark">{{session['Name']}}</h1>
+        <div >
+            <p class="color">{{session['Dojo_Location']}}</p>
+            <p>{{session['Favorite_Language']}}</p>
+            <p>{{session['Comments']}}</p>
+        </div>
+    </div>
+    <a href="/" id="home2">Home</a>
+</body>
+</html>
